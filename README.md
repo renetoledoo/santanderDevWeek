@@ -1,6 +1,10 @@
-# santanderDevWeek
-Criação de um Aplicativo do Banco usando Java, SpringBoot
+# Santander Dev Week - Java Back End
+Java RESTful API criada para o Santander Dev Week
 
+## Diagrama de Classes
+
+
+```mermaid
 classDiagram
     class User {
         -String name
@@ -32,3 +36,4 @@ classDiagram
     User "1" *-- "*" Feature
     User "1" *-- "1" Card
     User "1" *-- "*" News
+```
